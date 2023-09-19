@@ -1,0 +1,33 @@
+.right-text-left-img-container {
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+
+.title-text-container {
+    width: 510px;
+    font-weight: 700;
+    margin-top: 90px;
+    color: #9ea7ae;
+    font-size: 40px;
+    text-align: left;
+}
+
+.subtitle-text-container {
+    margin-top: 2.5rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 400;
+    color: #9EA7AE;
+    width: 620px;
+    text-align: left;
+}
+
+.right-text-left-image {
+    width: 448px;
+}
+

@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,148 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fw500 {
+  font-weight: 500;
+}
+
+.flex  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.align-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color-black {
+  color: black
+}
+
+.get-cashback-container {
+  padding: 150px 1rem 4rem 1rem;
+  max-width: 80rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bold-text-color {
+  color: black;
+}
+
+.get-cashback-text {
+  font-size: 40px;
+  color: #9ea7ae;
+}
+
+.get-lifeline-text {
+  font-size: 40px;
+}
+
+.down-arrow-container {
+  width: 100%;
+  padding-top: 4rem;
+}
+
+.down-arrow-img-container {
+  background: linear-gradient(140.86deg, #65ECD8 11.07%, #FDEF78 80.28%);
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.text-uni-green {
+  color: rgba(90,214,196);
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.feature-section-container {
+  background-color: black;
+  background-image: url('https://www.uni.cards/images/circles.png');
+  background-repeat: no-repeat;
+}
+
+.section-container {
+  width: 100%;
+}
+
+.feature-section-title {
+  color: white;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: left;
+}
+
+.feature-section-text-container {
+  width: 520px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.feature-section-sub-title {
+  color: #BFC9CC;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: left;
+}
+
+
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.color-white {
+  color: white;
+}
+
+.benefit-section-container {
+  width: 100%;
+  padding: 70px 0 40px
+}
+
+.benefit-section-card {
+  margin-right: 100px;
+}
+
+
+.benefit-image {
+  width: 112px;
+  height: 7rem;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.benefit-title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  width: 300px;
+}
+
+.benefit-subtitle {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  width: 300px;
+  color: #BFC9CC;
+}
+
+.left-align {
+  text-align: left;
 }
